@@ -21,7 +21,7 @@ public class GameSettingsService {
     }
 
     @GET
-    @Path("{year}/{month}/{day}")
+    @Path("/hello/{year}/{month}/{day}")
     public Response getUserHistory(
             @PathParam("year") int year,
             @PathParam("month") int month,
