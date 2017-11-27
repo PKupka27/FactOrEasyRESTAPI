@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="factoreasyrestapi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="factoreasy-restapi.war">
+      <element id="artifact" artifact-name="factoreasyrestapi:war exploded" />
+    </root>
+  </artifact>
+</component>
