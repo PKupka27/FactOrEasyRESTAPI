@@ -6,8 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e38192e0-9f1c-4c68-8f2e-5910ff511f5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" />
+    <list default="true" id="e38192e0-9f1c-4c68-8f2e-5910ff511f5e" name="Default" comment="add edited GameSettingsService, name of attibute changed, resorces package and class in it">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/resources/FactoriesGameSettings.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/Model.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/index.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/model/GameSettingsModel.class" afterPath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/model/GameSettingsModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" afterPath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/classes/eu/cz/culs/kii/model/GameSettingsModel.class" afterPath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/classes/eu/cz/culs/kii/model/GameSettingsModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" afterPath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factoreasyrestapi.iml" afterPath="$PROJECT_DIR$/factoreasyrestapi.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,32 +31,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GameSettingsService.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GameSettingsService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="476">
+              <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -53,20 +55,19 @@
       <file leaf-file-name="GameSettingsModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-              <folding>
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#906#907#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1096#1097#0" expanded="true" />
-                <element signature="e#1148#1149#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,8 +95,9 @@
         <option value="$PROJECT_DIR$/src/main/eu/cz/culs/kii/restservice/GameSettingsService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" />
         <option value="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/resources/FactoriesGameSettings.java" />
       </list>
     </option>
   </component>
@@ -119,9 +121,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="156" />
+    <option name="y" value="85" />
     <option name="width" value="1924" />
     <option name="height" value="1056" />
   </component>
@@ -141,10 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -197,6 +195,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,6 +211,7 @@
       <recent name="eu.cz.culs.kii" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Idea projects\FactOrEasy-REST\src\main\java\eu\cz\culs\kii\resources" />
       <recent name="F:\Idea projects\FactOrEasy-REST\src\main\eu\cz\culs" />
       <recent name="F:\Idea projects\FactOrEasy-REST\src\main\eu\cz" />
       <recent name="F:\Idea projects\FactOrEasy-REST\src\main\eu" />
@@ -394,46 +397,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1511771401770</updated>
-      <workItem from="1511771406785" duration="7017000" />
+      <workItem from="1511771406785" duration="8907000" />
+      <workItem from="1511954242987" duration="1734000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7017000" />
+    <option name="totallyTimeSpent" value="10641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2510661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,71 +447,19 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add edited GameSettingsService, name of attibute changed, resorces package and class in it" />
+    <option name="LAST_COMMIT_MESSAGE" value="add edited GameSettingsService, name of attibute changed, resorces package and class in it" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DCP-PoC-REST-API/src/main/java/cz/capgemini/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/restservice/GameSettingsService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/GameSettingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/GameSettingsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -519,29 +472,152 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="36" column="38" lean-forward="false" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#906#907#0" expanded="true" />
-            <element signature="e#960#961#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="527">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DCP-PoC-REST-API/src/main/java/cz/capgemini/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/Model.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/restservice/GameSettingsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/eu/cz/culs/kii/GameSettingsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/GameSettingsService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        <state relative-caret-position="476">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/resources/FactoriesGameSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="287" column="3" lean-forward="false" selection-start-line="287" selection-start-column="3" selection-end-line="287" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1511955925647" expanded="false" signature="2209:2220" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2230:2236" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2268:2279" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2292:2298" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2331:2342" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2358:2364" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2410:2421" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2446:2452" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2481:2492" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2507:2513" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2554:2565" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2588:2594" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2639:2650" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2681:2687" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="2876:2887" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="2917:2923" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="3111:3122" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="3155:3161" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="3360:3371" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="3403:3409" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="3618:3629" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="3675:3681" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="3945:3956" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="4001:4007" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="4266:4277" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="4321:4327" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="4581:4592" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="4635:4641" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="4871:4882" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="4905:4911" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="4968:4979" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="5018:5024" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="5461:5472" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="5495:5501" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="5568:5579" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="5618:5624" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="6478:6489" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="6515:6521" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="6584:6595" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="6640:6646" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="6686:6697" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="6723:6729" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="6792:6803" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="6848:6854" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="6900:6911" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="6943:6949" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7155:7166" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7209:7215" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7443:7454" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7475:7481" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7534:7545" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7580:7586" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7622:7633" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7655:7661" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7716:7727" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7764:7770" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="7815:7826" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="7857:7863" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="8057:8068" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="8103:8109" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="8313:8324" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="8353:8359" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="8542:8553" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="8585:8591" ph=" }" />
+            <marker date="1511955925647" expanded="false" signature="8791:8802" ph=" { " />
+            <marker date="1511955925647" expanded="false" signature="8839:8845" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/model/GameSettingsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="33" column="17" lean-forward="false" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
           <folding />
         </state>
       </provider>

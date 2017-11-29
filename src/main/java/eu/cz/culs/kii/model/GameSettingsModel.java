@@ -4,14 +4,14 @@ public class GameSettingsModel {
 
     private int initialNumberOfGamesPerPlayer;
     private int numberOfPlayers;
-    private long initialCaptial;
+    private long initialCapital;
 
     public GameSettingsModel() {}
 
     public GameSettingsModel(int initialNumberOfGamesPerPlayer, int numberOfPlayers, long initialCaptial) {
         this.initialNumberOfGamesPerPlayer = initialNumberOfGamesPerPlayer;
         this.numberOfPlayers = numberOfPlayers;
-        this.initialCaptial = initialCaptial;
+        this.initialCapital = initialCaptial;
     }
 
     public int getInitialNumberOfGamesPerPlayer() {
@@ -30,12 +30,12 @@ public class GameSettingsModel {
         this.numberOfPlayers = numberOfPlayers;
     }
 
-    public double getInitialCaptial() {
-        return initialCaptial;
+    public double getInitialCapital() {
+        return initialCapital;
     }
 
-    public void setInitialCaptial(long initialCaptial) {
-        this.initialCaptial = initialCaptial;
+    public void setInitialCapital(long initialCaptial) {
+        this.initialCapital = initialCaptial;
     }
 
     @Override
@@ -43,7 +43,7 @@ public class GameSettingsModel {
         return "GameSettingsModel{" +
                 "initialNumberOfGamesPerPlayer=" + initialNumberOfGamesPerPlayer +
                 ", numberOfPlayers=" + numberOfPlayers +
-                ", initialCaptial=" + initialCaptial +
+                ", initialCaptial=" + initialCapital +
                 '}';
     }
 }

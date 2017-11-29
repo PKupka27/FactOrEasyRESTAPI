@@ -16,26 +16,23 @@ public class GameSettingsService {
         GameSettingsModel settings = new GameSettingsModel();
         settings.setNumberOfPlayers(5);
         settings.setInitialNumberOfGamesPerPlayer(3);
-        settings.setInitialCaptial(50000);
+        settings.setInitialCapital(50000);
         return settings;
     }
 
-    @GET
-    @Path("{year}/{month}/{day}")
-    public Response getUserHistory(
-            @PathParam("year") int year,
-            @PathParam("month") int month,
-            @PathParam("day") int day) {
+    @POST
+    @Path("{numberOfPlayers}/{initNumberofGames}/{initCapital}")
+    public Response createSettings(
+            @PathParam("numberOfPlayers") int year,
+            @PathParam("initNumberofGames") int month,
+            @PathParam("initCapital") int day) {
 
-        String date = year + "/" + month + "/" + day;
+        String resp = "Settings created";
 
         return Response.status(200)
-                .entity("getUserHistory is called, year/month/day : " + date)
+                .entity(resp)
                 .build();
-
     }
-
-
 
     /*
     @POST
@@ -45,12 +42,12 @@ public class GameSettingsService {
         String result = "Record entered: "+ student;
         return Response.status(201).entity(result).build();
     }
-*/
+
     @GET
     @Path("/{name}")
     public Response getMsg(@PathParam("name") String name) {
         String output = "<html> " + "<title>" + "Java WebService Example" + "</title>"  + "<body><h1><div style='font-size: larger;'>"
                 + "Hello <span style='text-transform: capitalize; color: green;'>" + name + "</span></div></h1></body>" + "</html>";
         return Response.status(200).entity(output).build();
-    }
+    }*/
 }
