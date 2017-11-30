@@ -6,17 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e38192e0-9f1c-4c68-8f2e-5910ff511f5e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/Model.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/classes/eu/cz/culs/kii/restservice/GameSettingsService.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/restservice/GameSettingsService.java" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/controller/GameSettingsRESTController.java" />
+    <list default="true" id="e38192e0-9f1c-4c68-8f2e-5910ff511f5e" name="Default" comment="add contoller renamed, resources class imports deleted">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/factoreasyrestapi.iml" afterPath="$PROJECT_DIR$/factoreasyrestapi.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/resources/FactoriesGameSettings.java" afterPath="$PROJECT_DIR$/src/main/java/eu/cz/culs/kii/resources/FactoriesGameSettings.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/factoreasy-restapi/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/factoreasy-restapi/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -464,12 +456,20 @@
       <updated>1511771401770</updated>
       <workItem from="1511771406785" duration="7017000" />
       <workItem from="1511793234530" duration="812000" />
-      <workItem from="1511955969835" duration="1396000" />
+      <workItem from="1511955969835" duration="1528000" />
     </task>
+    <task id="LOCAL-00001" summary="add contoller renamed, resources class imports deleted">
+      <created>1512031007798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512031007798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9225000" />
+    <option name="totallyTimeSpent" value="9357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="796" extended-state="6" />
@@ -512,6 +512,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add contoller renamed, resources class imports deleted" />
+    <option name="LAST_COMMIT_MESSAGE" value="add contoller renamed, resources class imports deleted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
