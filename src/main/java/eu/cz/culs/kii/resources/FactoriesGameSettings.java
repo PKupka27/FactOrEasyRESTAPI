@@ -5,10 +5,6 @@
  */
 package eu.cz.culs.kii.resources;
 
-import java.io.Serializable;
-import javax.persistence.*;
-import javax.xml.bind.annotation.XmlRootElement;
-
 /**
  *
  * @author jpavlicek

@@ -1,4 +1,4 @@
-package eu.cz.culs.kii.restservice;
+package eu.cz.culs.kii.controller;
 
 import eu.cz.culs.kii.model.GameSettingsModel;
 
@@ -7,7 +7,7 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 @Path("/settings")
-public class GameSettingsService {
+public class GameSettingsRESTController {
 
     @GET
     @Path("/getSettings")
